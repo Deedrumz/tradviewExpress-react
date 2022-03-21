@@ -40,12 +40,8 @@ const Home = () => {
           </div>
 
           <div className="appgoo">
-            <Link to="#">
-              <img id="btnag" src={Apple} alt="" />
-            </Link>
-            <Link to="#">
-              <img id="btnag" src={Google} alt="" />
-            </Link>
+           <a href="https://www.apple.com/app-store/"><img id="btnag" src={Apple} alt="" /></a>
+           <a href="https://play.google.com/store/apps"><img id="btnag" src={Google} alt="" /></a>
           </div>
         </div>
       </section>
@@ -256,8 +252,8 @@ const Home = () => {
                   </Nav>
 
                   <div className="moveag4">
-                          <img id="ag4" src={Apple} alt="" />
-                            <img id="ag4" src={Google} alt="" />
+                        <a href="https://www.apple.com/app-store"><img id="ag4" src={Apple} alt="" /></a> 
+                        <a href="https://play.google.com/store/apps"><img id="ag4" src={Google} alt="" /></a> 
                   </div>
                   
 
